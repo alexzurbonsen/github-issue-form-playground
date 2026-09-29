@@ -1,6 +1,7 @@
 name: Remove contributor
 description: Request removing a contributor.
-title: "[Contributor] Remove"
+title: "Remove [Contributor]"
+labels: ["contributor:remove"]
 body:
  - type: input
    id: github-username
