@@ -1,0 +1,12 @@
+name: Remove contributor
+description: Request removing a contributor.
+title: "[Contributor] Remove"
+body:
+ - type: input
+   id: github-username
+   attributes:
+     label: GitHub username
+     description: Enter the username of the contributor to remove, without @.
+     placeholder: octocat
+   validations:
+     required: true

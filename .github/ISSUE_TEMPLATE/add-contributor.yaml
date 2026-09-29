@@ -1,0 +1,28 @@
+   name: Add contributor
+   description: Request adding a contributor.
+   title: "[Contributor] Add"
+   body:
+     - type: input
+       id: github-username
+       attributes:
+         label: GitHub username
+         description: Enter the username without the @ symbol.
+         placeholder: octocat
+       validations:
+         required: true
+
+     - type: input
+       id: full-name
+       attributes:
+         label: Full name
+         placeholder: Mona Lisa
+       validations:
+         required: true
+
+     - type: input
+       id: email
+       attributes:
+         label: Email address
+         placeholder: mona@example.com
+       validations:
+         required: true
